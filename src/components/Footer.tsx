@@ -1,4 +1,3 @@
-
 import { Link } from 'react-router-dom';
 import { Mail, Phone } from 'lucide-react';
 
@@ -8,7 +7,13 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-serif mb-4 text-hyma-gold">Hyma Vastrika</h3>
+            <div className="mb-4">
+              <img
+                src="/lovable-uploads/7b9eced5-d184-4383-9f5a-1a8b5375f58c.png"
+                alt="Hyma Vastrika Logo"
+                className="h-16 bg-white rounded-full p-1"
+              />
+            </div>
             <p className="text-sm mb-4 max-w-xs text-hyma-cream/90">
               Elegant and traditional dresses and sarees for all occasions. 
               Bringing timeless fashion to your wardrobe with unique designs and quality fabrics.

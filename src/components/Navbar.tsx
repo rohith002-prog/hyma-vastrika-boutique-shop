@@ -16,9 +16,11 @@ const Navbar = () => {
       <div className="container mx-auto px-4 py-3">
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center">
-            <h1 className="text-hyma-burgundy text-2xl md:text-3xl font-serif font-bold">
-              Hyma Vastrika
-            </h1>
+            <img
+              src="/lovable-uploads/7b9eced5-d184-4383-9f5a-1a8b5375f58c.png"
+              alt="Hyma Vastrika Logo"
+              className="h-14 mr-3"
+            />
           </Link>
           
           {!isMobile ? (
